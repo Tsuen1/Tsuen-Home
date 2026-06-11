@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Tsuen.net 系统入口，连接解剖学习、疼痛沟通和 GESP C++ 学习考试系统。"
+      content="Tsuen.net 系统入口，连接佛学、健康、教育和金融相关数字系统。"
     />
     <title>Tsuen.net 系统入口</title>
     <link rel="stylesheet" href="./styles.css" />
@@ -16,73 +16,124 @@
         <div class="hero-copy">
           <p class="eyebrow">Tsuen.net</p>
           <h1 id="page-title">Tsuen’s 数字系统入口</h1>
-          <p class="lead">健康观察、解剖学习、编程训练和家庭知识系统的统一入口。</p>
+          <p class="lead">佛学、健康、教育和金融系统的统一入口。</p>
         </div>
 
         <div class="status-panel" aria-label="系统概览">
           <div class="status-line">
             <span class="status-dot online"></span>
-            <span>解剖系统已上线</span>
+            <span>健康模块已上线</span>
           </div>
           <div class="status-line">
             <span class="status-dot pending"></span>
-            <span>GESP 考试系统准备中</span>
+            <span>教育模块准备中</span>
           </div>
           <div class="status-line">
             <span class="status-dot reserved"></span>
-            <span>更多系统预留</span>
+            <span>佛学与金融模块预留</span>
           </div>
         </div>
       </section>
 
-      <section class="systems" aria-label="系统入口">
-        <a class="system-card anatomy-card" href="https://anatomy.tsuen.net">
-          <div class="card-top">
-            <span class="badge live">已上线</span>
-            <span class="card-code">ANATOMY</span>
+      <section class="module-grid" aria-label="四大模块">
+        <section class="module-section buddhism-module" aria-labelledby="module-buddhism">
+          <div class="module-heading">
+            <span class="module-mark"></span>
+            <div>
+              <p class="module-kicker">BUDDHISM</p>
+              <h2 id="module-buddhism">佛学</h2>
+            </div>
           </div>
-          <div class="visual anatomy-visual" aria-hidden="true">
-            <span class="spine"></span>
-            <span class="muscle muscle-a"></span>
-            <span class="muscle muscle-b"></span>
-            <span class="joint joint-a"></span>
-            <span class="joint joint-b"></span>
-          </div>
-          <h2>Tsuen’s 解剖系统</h2>
-          <p>肌骨结构、疼痛区域标注、颈腰骶髂专题。</p>
-          <span class="card-action">打开系统</span>
-        </a>
+          <article class="system-card muted-card compact-card">
+            <div class="card-top">
+              <span class="badge reserve">预留</span>
+              <span class="card-code">BUDDHISM</span>
+            </div>
+            <div class="visual buddhism-visual" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <h3>佛学资料系统</h3>
+            <p>经典、笔记、课程和个人学习资料整理。</p>
+            <span class="card-action disabled">规划中</span>
+          </article>
+        </section>
 
-        <article class="system-card muted-card">
-          <div class="card-top">
-            <span class="badge wait">准备中</span>
-            <span class="card-code">GESP</span>
+        <section class="module-section health-module" aria-labelledby="module-health">
+          <div class="module-heading">
+            <span class="module-mark"></span>
+            <div>
+              <p class="module-kicker">HEALTH</p>
+              <h2 id="module-health">健康</h2>
+            </div>
           </div>
-          <div class="visual code-visual" aria-hidden="true">
-            <span>{ }</span>
-            <span>for</span>
-            <span>if</span>
-            <span>++</span>
-          </div>
-          <h2>GESP C++ 学习考试系统</h2>
-          <p>题库、练习、错题、考试记录和学习进度。</p>
-          <span class="card-action disabled">等待部署</span>
-        </article>
+          <a class="system-card anatomy-card compact-card" href="https://anatomy.tsuen.net">
+            <div class="card-top">
+              <span class="badge live">已上线</span>
+              <span class="card-code">ANATOMY</span>
+            </div>
+            <div class="visual anatomy-visual" aria-hidden="true">
+              <span class="spine"></span>
+              <span class="muscle muscle-a"></span>
+              <span class="muscle muscle-b"></span>
+              <span class="joint joint-a"></span>
+              <span class="joint joint-b"></span>
+            </div>
+            <h3>Tsuen’s 3D 解剖系统</h3>
+            <p>肌骨结构、疼痛区域标注、颈腰骶髂专题。</p>
+            <span class="card-action">打开系统</span>
+          </a>
+        </section>
 
-        <article class="system-card muted-card">
-          <div class="card-top">
-            <span class="badge reserve">预留</span>
-            <span class="card-code">NEXT</span>
+        <section class="module-section education-module" aria-labelledby="module-education">
+          <div class="module-heading">
+            <span class="module-mark"></span>
+            <div>
+              <p class="module-kicker">EDUCATION</p>
+              <h2 id="module-education">教育</h2>
+            </div>
           </div>
-          <div class="visual archive-visual" aria-hidden="true">
-            <span></span>
-            <span></span>
-            <span></span>
+          <article class="system-card muted-card compact-card">
+            <div class="card-top">
+              <span class="badge wait">准备中</span>
+              <span class="card-code">GESP</span>
+            </div>
+            <div class="visual code-visual" aria-hidden="true">
+              <span>{ }</span>
+              <span>for</span>
+              <span>if</span>
+              <span>++</span>
+            </div>
+            <h3>GESP C++ 学习考试系统</h3>
+            <p>题库、练习、错题、考试记录和学习进度。</p>
+            <span class="card-action disabled">等待部署</span>
+          </article>
+        </section>
+
+        <section class="module-section finance-module" aria-labelledby="module-finance">
+          <div class="module-heading">
+            <span class="module-mark"></span>
+            <div>
+              <p class="module-kicker">FINANCE</p>
+              <h2 id="module-finance">金融</h2>
+            </div>
           </div>
-          <h2>后续系统</h2>
-          <p>投资研究、知识库、课程或家庭管理工具。</p>
-          <span class="card-action disabled">规划中</span>
-        </article>
+          <article class="system-card muted-card compact-card">
+            <div class="card-top">
+              <span class="badge reserve">预留</span>
+              <span class="card-code">FINANCE</span>
+            </div>
+            <div class="visual finance-visual" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <h3>金融研究系统</h3>
+            <p>投资研究、行情观察、策略记录和资料归档。</p>
+            <span class="card-action disabled">规划中</span>
+          </article>
+        </section>
       </section>
     </main>
 
